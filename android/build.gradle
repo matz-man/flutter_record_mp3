@@ -5,6 +5,7 @@ buildscript {
     repositories {
         google()
         jcenter()
+        mavenCentral()
     }
 
     dependencies {
@@ -16,6 +17,8 @@ rootProject.allprojects {
     repositories {
         google()
         jcenter()
+        mavenCentral()
+        maven { url 'https://repo.spring.io/libs-milestone' }
     }
 }
 
