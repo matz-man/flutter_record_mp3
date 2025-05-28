@@ -3,9 +3,9 @@ version '1.0-SNAPSHOT'
 
 buildscript {
     repositories {
+        mavenCentral()
         google()
         jcenter()
-        mavenCentral()
     }
 
     dependencies {
@@ -15,10 +15,10 @@ buildscript {
 
 rootProject.allprojects {
     repositories {
-        google()
-        jcenter()
         mavenCentral()
+        google()
         maven { url 'https://repo.spring.io/libs-milestone' }
+        jcenter()
     }
 }
 
